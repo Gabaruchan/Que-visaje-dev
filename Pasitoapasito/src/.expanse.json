@@ -154,6 +154,47 @@
       "shadow": {
         "receiveShadow": true
       }
+    },
+    "61ad7c8a-1685-4356-b26e-da9b835427fe": {
+      "id": "61ad7c8a-1685-4356-b26e-da9b835427fe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 1,
+        "width": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "03d872c1-e7c0-428b-a38e-6f58ee480705": {
+          "id": "03d872c1-e7c0-428b-a38e-6f58ee480705",
+          "name": "Custom Component",
+          "parameters": {
+            "isHostile": false
+          }
+        }
+      },
+      "name": "Box",
+      "order": 4.99599969438427
     }
   },
   "spaces": {
