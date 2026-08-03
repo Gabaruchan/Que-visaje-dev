@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 125,
+    "left": 0,
+    "width": 600,
+    "height": 800,
+    "isRotated": true,
+    "originalWidth": 600,
+    "originalHeight": 1050
+  },
+  "imagePath": "image-targets/tarjetica_luminance.png",
+  "metadata": null,
+  "name": "tarjetica",
+  "resources": {
+    "originalImage": "tarjetica_original.png",
+    "croppedImage": "tarjetica_cropped.png",
+    "thumbnailImage": "tarjetica_thumbnail.png",
+    "luminanceImage": "tarjetica_luminance.png"
+  },
+  "created": 1785779925360,
+  "updated": 1785779925360
+}

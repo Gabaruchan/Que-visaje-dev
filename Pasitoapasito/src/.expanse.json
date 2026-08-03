@@ -28,53 +28,14 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0,
-        0.5,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -129,6 +90,70 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
+    },
+    "37936dd1-2163-4e85-a2e0-c5528ebacad3": {
+      "id": "37936dd1-2163-4e85-a2e0-c5528ebacad3",
+      "position": [
+        0,
+        0.6947508260563513,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "tarjetica"
+      },
+      "order": 3.1306888778026916
+    },
+    "3f3981e6-8516-4f60-b66f-f1f764b0438a": {
+      "id": "3f3981e6-8516-4f60-b66f-f1f764b0438a",
+      "position": [
+        -0.004323571572644629,
+        0.036704431049631246,
+        -0.017769343168174245
+      ],
+      "rotation": [
+        0.6806750200448951,
+        0.19152419452090527,
+        0.19152419452090536,
+        0.6806750200448952
+      ],
+      "scale": [
+        0.2948359173394296,
+        0.26924183328542817,
+        0.33333333333333337
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "37936dd1-2163-4e85-a2e0-c5528ebacad3",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/muequito.glb"
+        },
+        "animationClip": "baile",
+        "loop": true
+      },
+      "name": "muequito.glb",
+      "order": 4.362522579123623,
+      "shadow": {
+        "receiveShadow": true
+      }
     }
   },
   "spaces": {
