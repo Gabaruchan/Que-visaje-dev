@@ -146,7 +146,7 @@
           "type": "asset",
           "asset": "assets/muequito.glb"
         },
-        "animationClip": "baile",
+        "animationClip": "idle",
         "loop": true
       },
       "name": "muequito.glb",
@@ -195,6 +195,158 @@
       },
       "name": "Box",
       "order": 4.99599969438427
+    },
+    "f5edf3ca-8fec-424c-a8f0-74ad1a869ebd": {
+      "id": "f5edf3ca-8fec-424c-a8f0-74ad1a869ebd",
+      "position": [
+        0,
+        0.7104024527007948,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        1,
+        1.0000000532124818,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Video_2026-08-18_at_44852_PM.mp4"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Plane",
+      "order": 6.728616856858357,
+      "videoControls": {}
+    },
+    "29f0e126-012c-411f-9cd6-9a1c21af3617": {
+      "id": "29f0e126-012c-411f-9cd6-9a1c21af3617",
+      "position": [
+        -0.11303046123546476,
+        2.1310673580654673,
+        -0.03202281740533331
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "f1c128a7-74b8-4b16-a658-a2251f605f29": {
+          "id": "f1c128a7-74b8-4b16-a658-a2251f605f29",
+          "name": "Play Pause Video",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "f5edf3ca-8fec-424c-a8f0-74ad1a869ebd"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 8.55228754732555
+    },
+    "c321a931-668f-4348-851f-b774f3ab84c6": {
+      "id": "c321a931-668f-4348-851f-b774f3ab84c6",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "29f0e126-012c-411f-9cd6-9a1c21af3617",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.35129201966257095
+    },
+    "430741b7-c040-46d1-b0a3-e9297b246b4b": {
+      "id": "430741b7-c040-46d1-b0a3-e9297b246b4b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "29f0e126-012c-411f-9cd6-9a1c21af3617",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.457258655639676
     }
   },
   "spaces": {
