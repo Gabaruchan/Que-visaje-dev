@@ -15,12 +15,14 @@ ecs.registerComponent({
     button: ecs.eid,
     animationA: ecs.string,
     animationB: ecs.string,
+    animationC: ecs.string,
     crossFadeDuration: ecs.f32,
   },
 
   schemaDefaults: {
     animationA: 'Idle',
     animationB: 'baile',
+    animationC: 'salto',
     crossFadeDuration: 0.2,
   },
 
